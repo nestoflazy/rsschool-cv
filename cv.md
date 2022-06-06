@@ -1,7 +1,7 @@
 # PERSONAL INFORMATION
 **Name:** Elena Zimakova   
 **Phone number:** +7-960-564-7423  
-**Email:** ahes@mail.ru  
+**Email:** [ahes@mail.ru](https://mail.ru/)  
 **GitHub** [nestoflazy](https://github.com/nestoflazy )   
 **LinkedIn:**  [elena-zimakova](https://www.linkedin.com/in/elena-zimakova-b477651b7/ )   
 
@@ -14,9 +14,9 @@ ___
 * Adaptability
 * Excellent communication skills
 * Java Script (Basic), CSS3/SASS, HTML5
-* Git, GitHub
+* Git/GitHub
 * Status tracking tools (Jira)
-* Strong collaboration skills
+* Photoshop
 
 
 ___
@@ -55,6 +55,7 @@ ___
 ### COURSES
 *[Udemy lectures](https://www.udemy.com/ )*  
 *[Learn JavaScript book](https://learn.javascript.ru/ )*  
+
 ___
 ## LANGUAGES
 **English-Speaking** - A2+  
