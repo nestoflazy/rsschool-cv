@@ -20,6 +20,17 @@ ul li {
     list-style-type: none;    
 }
 
+a {
+    color:#2DAAE4;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+a:hover {
+    color:#0979ad;    
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -141,7 +152,11 @@ pre {
     box-shadow: 3px 3px red, -1em 0 .4em olive;
 }
 
-a:hover img {
+.left-content__list a img{
+    transition: .3s;
+}
+
+.left-content__list a:hover img {
     box-shadow: 3px 3px 5px #2DAAE4;
     border-radius: 50%;
 }
