@@ -1,10 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="wrapper">
+        <!-- right-column-content -->
+        <div class="right-content">
+            <header class="heading">
+                <h1>Elena<span>Zimakova</span>
+                    <span>Junior Software Engineer</span>
+                </h1>
+            </header>
+            <main>
+                <section class="right-content__contacts">
+                    <h2>Contacts</h2>                   
+                    <ul>
+                        <li>Discord: lazyhomie (@nestoflazy)</li>
+                        <li>Email:<a href="email:ahes@mail.ru">ahes@mail.ru</a></li>
+                        <li>Address: Bryansk, Russia</li>
+                    </ul>
+                </section>
+                <section class="right-content__profile">
+                    <h2>Profile</h2>
+                    <p>Looking for an entry-level position as a Software Engineer in a dynamic firm that values my
+                        analytical and technical skills and provides scope for updating my knowledge, I seek a company
+                        that will help me contribute to its development while concurrently aiding my personal growth.
+                    </p>
+                </section>
+                <section class="right-content__work">
+                    <h2>Work Experience</h2>
+                    <div class="block">
+                        <h3>Wesma <span>From 2023 to Present</span></h3>
+                        <p>Junior Software Engineer</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h3>EPAM Systems <span>From 2019 to 2022</span></h3>
+                        <p>Junior Software Testing Engineer</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h3>Competentum Group <span>From 2018 to 2019</span></h3>
+                        <p>Digital Content Developer</p>
+                        <ul>
+                            <li>Experience in CSS for desktop and mobile devices</li>
+                            <li>Experience in adaptive and responsive design</li>
+                            <li>Experience in a11y development and testing</li>
+                            <li>Specific knowledge in customer integrated environment</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="right-content__references">
+                    <h2>Example code:</h2>
+                    <pre>
+                        <code>
+function count (string) {  
+  let obj = {};
+    if (string === ''){
+      return {};
+                         }
+    for (let i = 0; i &lt; string.length; i++){
+      let key = string[i];
+        if (obj[key] === undefined) {
+        obj[key] = 1;
+        } else {
+         obj[key] += 1;
+                 }
+            }
+         return obj; 
+             }
+                        </code>        
+                    </pre>
+                </section>
+                <section class="right-content__references">
+                    <h2>My currently projects</h2>
+                    <ul>
+                        <li><a href="http://q960560w.beget.tech/pages/finalWork/index.html" target="_blank">Sergio Pizza</a></li>
+                        <li><a href="https://github.com/nestoflazy/Travel" target="_blank">Travel</a></li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+
+        <!-- left-column-content -->
+        <div class="left-content">
+            <section class="left-content__education">
+                <div class="left-content__education-wrap">
+                    <h2>Education</h2>
+                    <div class="left-content__blocks">
+                        <div class="block">
+                            <p>2017</p>
+                            <h3>Bryansk State Technical University</h3>
+                            <p>Bachelor</p>
+                        </div>
+                        <div class="block">
+                            <p>2009</p>
+                            <h3>Bryansk Polytechnic College</h3>
+                            <p>Technician</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="left-content__skills">
+                <h2>Skills</h2>
+                <div class="left-content__blocks">
+                    <div class="block">
+                        <ul>
+                            <li>HTML5, XML</li>
+                            <li>CSS3, SCSS/SASS</li>
+                            <li>JavaScript ES6 (Basic)</li>
+                            <li>Figma, Git, Webpack, gulp</li>
+                            <li>Bootstrap 5</li>                           
+                            <li>Practical knowledge of SQL and database concepts</li>
+                            <li>English-Speaking: A2, English-Writing:A2+</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="left-content__certification">
+                <h2>Certification</h2>
+                <div class="left-content__blocks">
+                    <div class="block">
+                        <p>2023</p>
+                        <h3>Enter University Name</h3>
+                        <p>Enter your degree name</p>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <section class="left-content__social">
+                    <h2>Social</h2>
+                    <div class="left-content__blocks">
+                        <nav class="left-content__navigation">
+                            <ul class="left-content__list">
+                                <li><a href="https://www.linkedin.com/in/elena-zimakova-b477651b7/"><img src=""
+                                            alt="linkedin icon"></a></li>
+                                <li><a href="https://www.facebook.com/zimakova" target="_blank"><img src="" alt="facebook icon"></a></li>
+                                <li><a href="https://github.com/nestoflazy" target="_blank"><img src="" alt="github icon"></a></li>
+                                <li><a href="https://rs.school/js/" target="_blank"><img src="" alt="rs school icon"></a></li>
+                            </ul>
+                        </nav>
+                        <p>© 2023 All Rights Reserved by RS School.</p>
+                    </div>
+                </section>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
