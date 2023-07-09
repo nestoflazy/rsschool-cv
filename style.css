@@ -7,7 +7,7 @@
 body {
     margin: 3em auto;
     max-width: 1440px;
-    background-color: grey;
+    background-color: #bebebe;
     letter-spacing: 0.03rem;
     line-height: 150%;
 }
@@ -35,13 +35,13 @@ ul li {
 
 .right-content {
     background-color: #fff;   
-    padding: 3% 5%;
+    padding: 5%;
     order: 1;
 }
 
 .right-content section {    
     padding: 3% 0; 
-    border-bottom: 1px solid grey;  
+    border-bottom: 1px solid #bebebe;  
 }
 
 pre {
@@ -77,6 +77,20 @@ pre {
     padding: 10px 0;
 }
 
+.heading {
+    text-transform: uppercase; 
+    line-height: 250%;   
+}
+
+.heading h1 span:first-child {
+    color:#2DAAE4;
+}
+
+.heading h1 span:last-child {
+    color:rgba(0,0,0,0.6);
+    font-weight: 400;
+}
+
 .left-content h2 {
     padding: 3% 10%;
     background-color: #2DAAE4;  
@@ -92,6 +106,12 @@ pre {
     color: rgba(255,255,255,0.8);
 }
 
+.left-content__list {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 5%;
+}
 
 /* right-column-content */
 
@@ -119,4 +139,13 @@ pre {
 .example-block {
     margin-top: 3%;
     box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+a:hover img {
+    box-shadow: 3px 3px 5px #2DAAE4;
+    border-radius: 50%;
+}
+
+.left-content__list li:last-child a:hover img {
+    border-radius: 1%;
 }
