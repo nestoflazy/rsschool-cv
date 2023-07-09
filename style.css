@@ -8,10 +8,16 @@ body {
     margin: 3em auto;
     max-width: 1440px;
     background-color: grey;
+    letter-spacing: 0.03rem;
+    line-height: 150%;
+}
+
+main {
+    padding-left: 5%;
 }
 
 ul li {
-    list-style-type: none;
+    list-style-type: none;    
 }
 
 .wrapper {
@@ -28,13 +34,19 @@ ul li {
 }
 
 .right-content {
-    background-color: #fff;
+    background-color: #fff;   
     padding: 3% 5%;
     order: 1;
 }
 
 .right-content section {    
-    padding: 3% 0;   
+    padding: 3% 0; 
+    border-bottom: 1px solid grey;  
+}
+
+pre {
+    background: #e7e7e7;
+    padding-left: 2%;
 }
 
 
@@ -71,10 +83,13 @@ ul li {
 }
 
 .left-content h2,
-.left-content h3,
+.left-content h3 {
+    color: #fff;
+}
+
 .left-content p,
 .left-content ul li {
-    color: #fff;
+    color: rgba(255,255,255,0.8);
 }
 
 
@@ -88,4 +103,20 @@ ul li {
 
 .right-content .heading h1 span {
     display: block;
+}
+
+.right-content p,
+.right-content ul{
+    padding-top: 2%;
+}
+
+.right-content__work .block h3 span {
+    display: block;
+    color: rgba(0,0,0,0.5);
+    font-size: 0.8em;
+}
+
+.example-block {
+    margin-top: 3%;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
 }
